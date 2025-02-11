@@ -1,0 +1,54 @@
+<mvc:View 
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="ui5.ntrduo.controller.Register">
+  
+  <Page showNavButton="true" navButtonPress="onNavBack">
+    <content>
+      <VBox alignItems="Center">
+        <VBox>
+          <Label text="Nombre"/>
+          <Input id="idNameInput" placeholder="nombre"/>   
+        </VBox>
+        <VBox>
+          <Label text="Apellidos"/>
+          <Input id="idSurnameInput" placeholder="apellidos"/>   
+        </VBox>
+        <VBox>
+          <Label text="Fecha de Nacimiento"/>
+          <DatePicker id="idBirthInput" placeholder="fecha de nacimiento" change="handleChange"/> 
+        </VBox>
+        <VBox>
+          <Label text="Lugar"/>
+          <Input id="idPlaceInput" placeholder="lugar de procedencia"/>   
+        </VBox>
+        <VBox>
+          <Label text="Correo"/>
+          <Input id="idMailInput" placeholder="correo"/>   
+        </VBox>
+        <VBox>
+          <Label text="Nombre de Usuario"/>
+          <Input id="idUsernameInput" placeholder="nombre de usuario"/>
+        </VBox>
+        <VBox>
+          <Label text="Contraseña"/>
+          <Input id="idPasswordInput" placeholder="contraseña"/>   
+        </VBox>
+        <VBox>
+          <Label text="Repetir Contraseña"/>
+          <Input id="idRepPasswordInput" placeholder="repita la contraseña"/>   
+        </VBox>
+        <Button id="idRegistrarseButton" text="Registrarse" press="onRegistrarseButtonPress"/>
+      </VBox>
+    </content>
+    <footer>
+			<Toolbar>
+				<content>
+            <Button class="iconMedia" icon="sap-icon://information" text="Instagram"/>
+            <ToolbarSpacer width="680px"/>
+            <Text class="greenShadow" text="Antonio: +34 123456789 | Desire: +34 123456789"/>
+				</content>
+			</Toolbar>
+		</footer>
+  </Page>
+</mvc:View>

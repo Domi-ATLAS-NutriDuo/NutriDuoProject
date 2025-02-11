@@ -1,0 +1,34 @@
+{
+    "Usuarios": [
+      {
+        "IdUsuario": "U001",
+        "Nombre": "Pedro",
+        "Apellidos": "Liso Calleja",
+        "FechaNacimiento": "13-04-2002",
+        "Lugar": "Sevilla",
+        "Mail": "a@email.com",
+        "NombreDeUsuario": "userpedro",
+        "Contraseña": "abc"
+      },
+      {
+        "IdUsuario": "U002",
+        "Nombre": "Sergio",
+        "Apellidos": "Martin Mesa",
+        "FechaNacimiento": "28-07-2002",
+        "Lugar": "Sevilla",
+        "Mail": "b@email.com",
+        "NombreDeUsuario": "luigi333",
+        "Contraseña": "abcd"
+      },
+      {
+        "IdUsuario": "U003",
+        "Nombre": "Daniel",
+        "Apellidos": "Plaza Otero",
+        "FechaNacimiento": "16-09-2001",
+        "Lugar": "Sevilla",
+        "Mail": "c@email.com",
+        "NombreDeUsuario": "danielplaza01",
+        "Contraseña": "abcde"
+      }
+    ]
+}  

@@ -1,0 +1,98 @@
+{
+    "_version": "1.65.0",
+    "sap.app": {
+      "id": "ui5.ntrduo",
+      "title": "Proyecto ntrduo",
+      "description": "Este ejercicio se acerca a una situacion realista",
+      "type": "application",
+      "applicationVersion": {
+        "version": "1.0.0"
+      }
+    },
+    "sap.ui": {
+      "technology": "UI5",
+      "deviceTypes": {
+        "desktop": true,
+        "tablet": true,
+        "phone": true
+      }
+    },
+    "sap.ui5": {
+      "dependencies": {
+        "minUI5Version": "1.108.0",
+        "libs": {
+          "sap.ui.core": {},
+          "sap.m": {}
+        }
+      },
+      "contentDensities": {
+        "compact": true,
+        "cozy": true
+      },
+      "models": {
+       
+      },
+      "rootView": {
+        "viewName": "ui5.ntrduo.view.App",
+        "type": "XML",
+        "id": "app"
+      },
+      "resources": {
+       "css": [
+          {
+            "uri": "styles/styles.css"
+          }
+        ]
+      },
+      "routing": {
+        "config": {
+          "routerClass": "sap.m.routing.Router",
+          "viewType": "XML",
+          "viewPath": "ui5.ntrduo.view",
+          "controlId": "app",
+          "controlAggregation": "pages"
+        },
+        "routes": [
+          {
+            "pattern": "",
+            "name": "login",
+            "target": "login"
+          },
+          {
+            "pattern": "home",
+            "name": "home",
+            "target": "home"
+          },
+          {
+            "pattern": "register",
+            "name": "register",
+            "target": "register"
+          },
+          {
+            "pattern": "info",
+            "name": "info",
+            "target": "info"
+          }
+        ],
+        "targets": {
+          "login": {
+            "viewName": "Login",
+            "viewId": "login"
+          },
+          "register": {
+            "viewName": "Register",
+            "viewId": "register"
+          },
+          "home": {
+            "viewName": "Home",
+            "viewId": "home"
+          },
+          "info": {
+            "viewName": "Info",
+            "viewId": "info"
+          }
+        }
+      }
+    }
+  }
+  

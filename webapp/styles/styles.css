@@ -1,0 +1,138 @@
+/*BUTTON*/
+
+
+.sapMBtnInner{
+    background-color: lightgreen;
+    color: white;
+    width: 200px;
+}
+
+
+.sapMBtnInner:hover{
+    background-color: green !important;
+    color: white !important;
+
+}
+
+.sapMBtnInner::before{
+    visibility: hidden;
+}
+
+
+.sapMBtnActive{
+    width: 120px;
+}
+
+.sapMBtnActive:active{
+    border: 0px solid green  !important;
+}
+
+.sapMBtnBack .sapMBtnActive:active{
+    border: 2px solid green  !important;
+}
+
+.sapMBtnBack{
+    background-color: white;
+    border-width: 3px;
+    border-color: green !important;
+    width: 50px;
+}
+
+.sapMBtnBack:hover{
+    background-color: white !important;
+    border-width: 3px;
+    border-color: green !important;
+}
+
+:root {
+    --sapButton_Hover_Background: green;
+    --sapButton_Hover_TextColor: white;
+}
+
+
+/*LINK*/
+
+.sapMLnk{
+    color: lightgreen !important;
+}
+
+.sapMLnk:hover{
+    color: green !important;
+}
+
+.sapMLnk:focus{
+    visibility: hidden;
+}
+
+
+
+/*INPUT*/
+
+.sapMInputBaseContentWrapper::before{
+    border: 3px solid !important;
+    border-color: green!important;
+    color: lightgreen !important;
+}
+
+.sapMInputBase:hover input{
+    border: 2px solid lightgreen !important; 
+}
+
+
+/*ICON*/
+
+
+
+
+
+/*LABEL*/
+
+.sapMLabelInner {
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px lightgreen !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+
+/*ICON MEDIA*/
+
+
+.iconMedia .sapMBtnInner:hover{
+    background-color: white !important;
+    color: green !important;
+}
+
+.iconMedia .sapMBtnInner{
+    background-color: white !important;
+    color: lightgreen !important;
+}
+
+.iconMedia .sapUiIcon::before{
+    color: green;
+}
+
+/*TEXT*/
+
+
+
+
+.greenShadow{
+    color: green !important;
+    text-shadow: 2px 2px lightgreen !important;
+    
+}
+
+/*PAGE LOGIN*/
+
+
+.pageLoginClass .sapMTitle{
+    color: green !important;
+    text-shadow: 2px 2px lightgreen !important;
+}

@@ -1,0 +1,35 @@
+<mvc:View 
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="ui5.ntrduo.controller.Login">
+  
+  <Page class="pageLoginClass" title="NUTRIDUO">
+    <headerContent>
+      <Text class="greenShadow" text="NUTRIDUO"/>
+		</headerContent>
+    <content>
+      <VBox alignItems="Center">
+        <VBox>
+          <Label text="Nombre de Usuario"/>
+          <Input id="idLoginInput" placeholder="nombre de usuario"/>
+        </VBox>
+        <VBox>
+          <Label text="Contraseña"/>
+          <Input id="idPasswordInput" placeholder="contraseña"/>   
+        </VBox>
+        <Link press="onRegisterForm" text="¿No tiene cuenta? Resgitrate"/>
+        <Button text="Iniciar Sesión"/>
+        <Button press="onInfoPage" text="Página de Información"/>
+      </VBox>
+    </content>
+    <footer>
+			<Toolbar>
+				<content>
+            <Button class="iconMedia" icon="sap-icon://information" text="Instagram"/>
+            <ToolbarSpacer width="680px"/>
+            <Text class="greenShadow" text="Antonio: +34 123456789 | Desire: +34 123456789"/>
+				</content>
+			</Toolbar>
+		</footer>
+  </Page>
+</mvc:View>
