@@ -50,8 +50,6 @@ sap.ui.define([
 			oModel.refresh();
 			console.log("Datos actualiado:", oData);
 
-			calcLimits;
-
 			const oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			oRouter.navTo("login");
 		},
