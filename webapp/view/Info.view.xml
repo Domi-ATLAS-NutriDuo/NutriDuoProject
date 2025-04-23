@@ -3,4 +3,24 @@
   xmlns="sap.m"
   controllerName="ui5.ntrduo.controller.Info">
 
+  <Page class="pageLoginClass">
+    <HeaderContainer class="greenBody">
+        <content>
+            <Button text="Inicio"/>
+            <Button text="Disponibilidad"/>
+        </content>
+    </HeaderContainer>
+    <HBox justifyContent="Center">
+      <Image src="resource/images/LOGO.PNG" width="300px" height="300px" class="paddingTop"/>
+    </HBox>
+    <footer id="footerGeneral">
+      <Toolbar>
+				<content>
+            <Button class="iconMedia" icon="sap-icon://information" text="Instagram" />
+            <ToolbarSpacer width="680px"/>
+            <Text class="greenShadow" text="Antonio: +34 123456789 | Desire: +34 123456789"/>
+				</content>
+			</Toolbar>
+    </footer>
+  </Page>
 </mvc:View>

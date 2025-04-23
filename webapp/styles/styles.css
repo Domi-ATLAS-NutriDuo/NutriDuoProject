@@ -81,7 +81,9 @@
 
 /*ICON*/
 
-
+.paddingTop{
+    padding-top: 100px !important;
+}
 
 
 
@@ -135,4 +137,16 @@
 .pageLoginClass .sapMTitle{
     color: green !important;
     text-shadow: 2px 2px lightgreen !important;
+}
+
+/*PAGE HEADER*/
+
+
+.greenBody{
+    background-color: rgb(211, 251, 211);
+}
+
+
+.sapMFooter-CTX{
+    background-color: rgb(211, 251, 211) !important;
 }
