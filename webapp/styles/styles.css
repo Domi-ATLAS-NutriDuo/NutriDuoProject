@@ -82,10 +82,12 @@
 /*ICON*/
 
 .paddingTop{
-    padding-top: 100px !important;
+    padding-top: 150px !important;
 }
 
-
+.paddingBottom{
+    padding-bottom: 150px !important;
+}
 
 /*LABEL*/
 
@@ -131,6 +133,10 @@
     
 }
 
+.lightGreenBody{
+    background-color: lightgreen;
+}
+
 /*PAGE LOGIN*/
 
 
@@ -143,10 +149,10 @@
 
 
 .greenBody{
-    background-color: rgb(211, 251, 211);
+    background-color: rgb(33, 165, 33);
 }
 
 
 .sapMFooter-CTX{
-    background-color: rgb(211, 251, 211) !important;
+    background-color: rgb(33, 165, 33) !important;
 }
